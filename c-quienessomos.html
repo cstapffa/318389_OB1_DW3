@@ -10,6 +10,11 @@
     <!-- Estilos -->
     <link rel="stylesheet" href="css/estilos.css" type="text/css">
     <link rel="stylesheet" href="css/estilos.min.css" type="text/css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- HEADER -->
@@ -45,7 +50,45 @@
         </nav>
     </header>
 
-    <main>
+    <main class="container">
+      <section class="seccion_nosotros row">
+        <article class="col-md-8">
+          <div class="info">
+            <h1>Quiénes somos</h1>
+            <p>En otros países, la fabricación de prótesis en 3D lleva varios años, y se logró traer esta tecnología a Uruguay en 2020. El laboratorio generador de las más bellas emociones, conocido como ‘Manos de Héroes’, se dedica a proporcionar prótesis de manera gratuita. Cuando un niño recibe una prótesis, lo primero que hace es reír; en el caso de los adultos, suelen emocionarse hasta las lágrimas.</p>
+            
+            <h2>¿Cómo surge?</h2>
+          <p>Andrea Cukerman, fundadora de ‘Manos de Héroes’, vive en Montevideo y es madre de dos niños: Facu de 4 años y Mati de un año y medio. Es ingeniera eléctrica egresada de UDELAR y la creadora de las prótesis 3D en Uruguay. Su interés en cómo la ingeniería podía mejorar la sociedad la llevó a introducir la impresión 3D en el país. Comenzaron en plena pandemia, y hasta la fecha, han fabricado y entregado más de 100 manos protésicas, alcanzando los 19 departamentos de Uruguay y desarrollando el primer brazo biónico del país.</p>
+
+          <h2>Misión y Visión</h2>
+          <p><span>Misión: </span>Proporcionar prótesis de alta calidad de manera gratuita a quienes las necesitan, utilizando tecnología de impresión 3D para mejorar la calidad de vida y fomentar la inclusión social.</p>
+          <p><span>Visión: </span>Convertirse en un referente en la fabricación de prótesis 3D en Uruguay y la región, expandiendo el alcance del proyecto para llegar a más personas y continuar innovando en el desarrollo de soluciones biónicas.</p>
+          
+          <h2>Equipo</h2>
+          <p>El equipo de ‘Manos de Héroes’ ha crecido desde los inicios solitarios de Andrea hasta incluir alrededor de 10 personas. Este grupo diverso incluye profesionales que trabajan en el proyecto, fotógrafos, ensambladores de piezas, y personal encargado de la contabilidad.</p>
+          
+          <h2>Valores</h2>
+          <p>‘Manos de Héroes’ se basa en valores como la solidaridad, la innovación, y el compromiso con la mejora de la calidad de vida de las personas. El pago por una prótesis es la alegría y la movilidad recuperada de quien la recibe.</p>
+        </div>
+        <div class="formulario">
+          <h3>Contactános</h3>
+          <p>Si tienes alguna consulta, no dudes en contactarnos.</p>
+          <form action="#" method="get">
+            <input type="text" placeholder="Nombre">
+            <div>
+              <input type="email" placeholder="Email">
+              <input type="text" placeholder="Teléfono">
+            </div>
+            <textarea placeholder="Escribe tu mensaje" rows="5" cols="30"></textarea>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </form>
+        </div>
+        </article>
+
+        <aside class="col-md-4 justify-content-center mt-3 mt-md-0">
+          <img src="img/manos-mauro.jpg" alt="Prototipo de una mano" title="Diseño de Mauro Clemente" height="100%">
+        </aside>
+      </section>
     </main>
 
     <!-- FOOTER -->

@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /* Importo los archivos parciales de estilos SCSS */
-body {
-  background-color: #f5f5f5;
-}
-
 header {
   position: fixed;
   z-index: 999;
@@ -11961,6 +11957,64 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #f5f5f5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.seccion_nosotros {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.seccion_nosotros h1, .seccion_nosotros .h1 {
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #0d6efd;
+  padding: 10px;
+}
+.seccion_nosotros h2, .seccion_nosotros .h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.seccion_nosotros p {
+  font-size: 1em;
+}
+.seccion_nosotros .formulario {
+  margin-top: 50px;
+  background-color: #dddddd;
+  padding: 20px;
+  border-radius: 20px;
+}
+.seccion_nosotros .formulario h3, .seccion_nosotros .formulario .h3 {
+  font-size: 1.2em;
+}
+.seccion_nosotros .formulario p {
+  font-size: 0.9em;
+}
+.seccion_nosotros .formulario form {
+  display: flex;
+  flex-direction: column;
+}
+.seccion_nosotros .formulario form input {
+  margin: 5px;
+  padding: 5px;
+}
+.seccion_nosotros .formulario form div {
+  display: flex;
+  justify-content: space-between;
+}
+.seccion_nosotros .formulario form div input {
+  width: 49.9%;
+}
+.seccion_nosotros .formulario form textarea {
+  margin: 5px;
+}
+.seccion_nosotros .formulario form button {
+  margin: 10px 5px 5px;
+}
+
 .seccion_faq h2, .seccion_faq .h2 {
   margin-bottom: 30px;
   text-align: center;
