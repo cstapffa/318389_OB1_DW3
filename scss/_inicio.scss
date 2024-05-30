@@ -1,0 +1,89 @@
+/* Inicio */
+.seccion_carousel {
+    .carousel-caption {
+        h1 {
+            /* font-family: ; */
+            font-weight: bold;
+            font-size: 2.5em;
+            color: rgb(12, 12, 12);
+        }
+        p {
+            font-size: 1.2em;
+            color: rgb(12, 12, 12);
+        }
+        .btn {
+            font-size: 0.9em;
+            text-transform: uppercase;
+        }
+
+    }
+}
+
+.seccion_vision {
+    .row {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        .col-md-10 {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 375px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            h2 {
+                font-weight: bold;
+                font-size: 1.8em;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.seccion_impacto {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.seccion_testimonios {
+    .row {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        article {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 20px;
+        
+            .testimonios {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        /* .bd-placeholder-img {
+            background-image: url(img/spiderman2.jpg);
+            background-size: cover;
+            background-position: center;
+        } */    
+                img {
+                    border-radius: 50%;
+                }
+                h2 {
+                margin: 20px 0;
+                }
+            }
+
+            h3 {
+                font-size: 16px;
+                padding: 15px 0 0;
+            }
+        } 
+    }
+}

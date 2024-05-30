@@ -1,0 +1,36 @@
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+    img {
+        height: 45px;
+    }
+    ul {
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+    li {
+        margin-left: 10px;
+    }
+    li:hover {
+        background-color: #f1f1f1;
+        color: white;
+        border-radius: 7px;
+        transition: .5s;
+    }
+    .active {
+        font-weight: bold;
+    }
+}
+
+main {
+    margin-top: 70px;
+}
+
+section {
+    margin: 50px 0;
+}
+
