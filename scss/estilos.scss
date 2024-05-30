@@ -30,8 +30,17 @@ header {
     }
 }
 
+main {
+    margin-top: 70px;
+}
+
+section {
+    margin: 50px 0;
+}
+
+
 /* inicio */
-#myCarousel {
+.seccion_carousel {
     .carousel-caption {
         h1 {
             /* font-family: ; */
@@ -49,4 +58,27 @@ header {
         }
 
     }
+}
+
+.seccion_testimonios {
+    .row {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        .col-lg-3 {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+        .testimonios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            margin: 20px 0;
+        }
+    }
+}
 }

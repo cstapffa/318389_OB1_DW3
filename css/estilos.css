@@ -11870,20 +11870,48 @@ header .active {
   font-weight: bold;
 }
 
+main {
+  margin-top: 70px;
+}
+
+section {
+  margin: 50px 0;
+}
+
 /* inicio */
-#myCarousel .carousel-caption h1, #myCarousel .carousel-caption .h1 {
+.seccion_carousel .carousel-caption h1, .seccion_carousel .carousel-caption .h1 {
   /* font-family: ; */
   font-weight: bold;
   font-size: 2.5em;
   color: rgb(12, 12, 12);
 }
-#myCarousel .carousel-caption p {
+.seccion_carousel .carousel-caption p {
   font-size: 1.2em;
   color: rgb(12, 12, 12);
 }
-#myCarousel .carousel-caption .btn {
+.seccion_carousel .carousel-caption .btn {
   font-size: 0.9em;
   text-transform: uppercase;
+}
+
+.seccion_testimonios .row {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.seccion_testimonios .row .col-lg-3 {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.seccion_testimonios .row .testimonios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seccion_testimonios .row .testimonios h2, .seccion_testimonios .row .testimonios .h2 {
+  margin: 20px 0;
 }
 
 /*# sourceMappingURL=estilos.css.map */
