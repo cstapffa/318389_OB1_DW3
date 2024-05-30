@@ -1,0 +1,57 @@
+/* Quienes somos */
+.seccion_nosotros {
+    display: flex;
+    justify-content: center;
+    .info {
+        background-color: white;
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+            background-color: #dddddd;
+            padding: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 0 10px;
+        }
+        p {
+            font-size: 1em;
+            padding: 0 10px;
+        }
+    }
+    .formulario {
+        margin-top: 30px;
+        background-color: #dddddd;
+        padding: 20px;
+        border-radius: 20px;
+        h3 {
+            font-size: 1.2em;
+        }
+        p {
+            font-size: 0.9em;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            input {
+                margin: 5px;
+                padding: 5px;
+            }
+            div {
+                display: flex;
+                justify-content: space-between;
+                input {
+                    width: 49.9%;
+                }
+            }
+            textarea {
+                margin: 5px;
+            }
+            button {
+                margin: 10px 5px 5px;
+            }
+        }
+    }
+}
