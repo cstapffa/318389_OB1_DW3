@@ -175,6 +175,70 @@ footer div a img {
   margin: 10px 5px 5px;
 }
 
+/* Colaborar */
+#colaborar .seccion_hero {
+  background-image: url(../img/niños.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+#colaborar .seccion_hero .hero-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 100%;
+}
+#colaborar .seccion_hero .hero-caption h1, #colaborar .seccion_hero .hero-caption .h1 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: white;
+}
+#colaborar .seccion_fomento h2, #colaborar .seccion_fomento .h2 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+#colaborar .seccion_fomento p {
+  font-size: 1.2em;
+}
+#colaborar .seccion_fomento p:last-of-type {
+  color: blue;
+  font-weight: bold;
+}
+#colaborar .seccion_fomento p:last-of-type span {
+  color: yellow;
+}
+#colaborar .seccion_donaciones iframe {
+  height: 100%;
+}
+#colaborar .seccion_donaciones article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+#colaborar .seccion_donaciones article .donaciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#colaborar .seccion_donaciones article .donaciones div .btn {
+  margin: 20px;
+}
+
+.seccion_graciastotales h2, .seccion_graciastotales .h2 {
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: blue;
+  color: white;
+  padding: 30px;
+}
+
 .seccion_razones {
   background-color: white;
 }
@@ -183,6 +247,7 @@ footer div a img {
   font-weight: bold;
   background-color: #dddddd;
   padding: 10px;
+  text-align: center;
 }
 .seccion_razones article {
   padding: 10px;
@@ -209,6 +274,7 @@ footer div a img {
   font-weight: bold;
   background-color: #dddddd;
   padding: 10px;
+  text-align: center;
 }
 .seccion_faq h3, .seccion_faq .h3 {
   margin-bottom: 30px;

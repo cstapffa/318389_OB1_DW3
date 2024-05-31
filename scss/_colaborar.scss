@@ -1,0 +1,76 @@
+/* Colaborar */
+#colaborar {
+    .seccion_hero {
+        background-image: url(../img/niños.jpg);
+        background-attachment: fixed;
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    .hero-caption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        height: 100%;
+        h1 {
+            font-weight: bold;
+            font-size: 2.8rem;
+            color: white;
+        }
+        }
+    }
+
+    .seccion_fomento {
+        h2 {
+            font-weight: bold;
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        p:last-of-type {
+            color: blue;
+            font-weight: bold;
+            span {
+                color: yellow;
+            }
+    }
+    }
+
+    .seccion_donaciones {
+        iframe {
+            height: 100%;
+        }
+        article {
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            .donaciones {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                div {
+                    .btn {
+                        margin: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.seccion_graciastotales {
+    h2 {
+        font-size: 2.5em;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: blue;
+        color: white;
+        padding: 30px;
+    
+    }
+}
