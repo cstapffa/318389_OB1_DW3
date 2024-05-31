@@ -32,10 +32,10 @@
             font-size: 1.2em;
         }
         p:last-of-type {
-            color: blue;
+            color: $primary;
             font-weight: bold;
             span {
-                color: yellow;
+                color: $secondary-dark;
             }
     }
     }
@@ -53,10 +53,34 @@
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
-                div {
-                    .btn {
+                                   .btn {
                         margin: 20px;
+                       
                     }
+                
+            }
+        }
+        .ayuda-voluntarios {
+            background-color: $medium;
+            form {
+                display: flex;
+                flex-direction: column;
+                input {
+                    margin: 10px;
+                    padding: 5px;
+                }
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    input {
+                        width: 49.9%;
+                    }
+                }
+                textarea {
+                    margin: 5px;
+                }
+                button {
+                    margin: 10px 5px 5px;
                 }
             }
         }
@@ -64,13 +88,19 @@
 }
 
 .seccion_graciastotales {
+    background-image: url(../img/ironman-y-flia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 3px solid $secondary;
     h2 {
         font-size: 2.5em;
         text-align: center;
         text-transform: uppercase;
-        background-color: blue;
+        background-color: $secondary;
         color: white;
         padding: 30px;
-    
     }
+
 }

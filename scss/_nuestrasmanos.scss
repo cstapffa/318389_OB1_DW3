@@ -4,7 +4,7 @@
     h2 {
                 font-size: 2em;
                 font-weight: bold;
-                background-color: #dddddd;
+                background-color: $medium;
                 padding: 10px;
                 text-align: center;
             }
@@ -33,7 +33,7 @@
     h2 {
         font-size: 2em;
         font-weight: bold;
-        background-color: #dddddd;
+        background-color: $medium;
         padding: 10px;
         text-align: center;
     }
@@ -43,6 +43,6 @@
         text-transform: uppercase;
     }
         .accordion-item {
-            background-color: #f5f5f5;
+            background-color: $lightest;
         }
     }
