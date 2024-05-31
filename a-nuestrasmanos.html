@@ -5,11 +5,17 @@
     <meta name="author" content="Camila Stapff">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator " content="Visual Studio Code">
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/a68de7_9f5be1e6371b484cab1015132c1adbcc%7Emv2.jpg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/a68de7_9f5be1e6371b484cab1015132c1adbcc%7Emv2.jpg" type="image/jpeg">
     <title>Manos de Héroes</title>
 
     <!-- Estilos -->
     <link rel="stylesheet" href="css/estilos.css" type="text/css">
     <link rel="stylesheet" href="css/estilos.min.css" type="text/css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- HEADER -->
@@ -46,50 +52,162 @@
     </header>
 
     <main>
-
+      <!-- Slider -->
       <section class="seccion_slider">
-
-      </section>
-      <!-- FAQ -->
-    <!-- <section class="seccion_faq container accordion my-md-5" id="accordionExample">
-      <h2>Preguntas frecuentes</h2>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Accordion Item #1
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/protesis1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/protesis1.1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/protesis2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/protesis2.2.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev text-bg-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
           </button>
-        </h2>
+          <button class="carousel-control-next text-bg-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Razones -->
+      <section class="seccion_razones container">
+        <h2>¿Por qué la impresión 3D?</h2>
+        <article class="row featurette border-bottom">
+          <div class="col-md-7">
+            <h3>Diseño.</h3>
+            <p>Donde antes la fabricación convencional encontraba dificultades para crear formas complejas y orgánicas, las impresoras 3D han revolucionado el proceso. La manufactura tradicional, limitada por herramientas y técnicas, luchaba con geometrías intrincadas y estructuras internas elaboradas. En contraste, la impresión 3D permite una libertad de diseño sin precedentes, creando objetos capa por capa y facilitando la producción de formas altamente detalladas y personalizadas.</p>
+            <p>Las impresoras 3D pueden fabricar piezas con estructuras internas complejas, como redes y patrones de celosía, proporcionando propiedades únicas de resistencia y peso reducido. Esto ha abierto nuevas oportunidades en campos como la medicina, la aeroespacial, y la automotriz. Por ejemplo, en la medicina, se pueden producir implantes y prótesis adaptados a la anatomía del paciente, mejorando su eficacia y confort.</p>
+          </div>
+          <div class="col-md-5 mb-3">
+            <img src="img/color-theory.png" alt="Dibujo teoría del color" title="Teoría del Color" class="img-fluid mx-auto" width="450" height="450">
+          </div>
+        </article>
+
+        <article class="row featurette border-bottom mt-3">
+          <div class="col-md-7 order-md-2 ">
+            <h3>Personalización.</h3>
+            <p>A diferencia de la fabricación en masa de piezas idénticas, la impresión 3D permite la creación de dispositivos protésicos y ortopédicos personalizados para cada paciente. Esta tecnología ofrece la capacidad de adaptar cada pieza a la anatomía específica del individuo, mejorando significativamente su ajuste y funcionalidad. Al permitir este nivel de personalización, la impresión 3D no solo incrementa la comodidad del usuario, sino que también mejora la eficacia del dispositivo. Esto es especialmente crucial en el campo médico, donde un ajuste preciso puede marcar la diferencia en la calidad de vida del paciente.</p>
+          </div>
+          <div class="col-md-5 order-md-1 mb-3">
+            <img src="img/social-acceptance.png" alt="Dibujo de aceptación social" title="Aceptación Social" class="img-fluid mx-auto" width="450" height="450">
+          </div>
+        </article>
+
+        <article class="row featurette border-bottom">
+          <div class="col-md-7">
+            <h3>Costo.</h3>
+            <p>Donde antes la fabricación convencional encontraba dificultades para crear formas complejas y orgánicas, las impresoras 3D han revolucionado el proceso. La manufactura tradicional, limitada por herramientas y técnicas, luchaba con geometrías intrincadas y estructuras internas elaboradas. En contraste, la impresión 3D permite una libertad de diseño sin precedentes, creando objetos capa por capa y facilitando la producción de formas altamente detalladas y personalizadas.</p>
+            <p>Las impresoras 3D pueden fabricar piezas con estructuras internas complejas, como redes y patrones de celosía, proporcionando propiedades únicas de resistencia y peso reducido. Esto ha abierto nuevas oportunidades en campos como la medicina, la aeroespacial, y la automotriz. Por ejemplo, en la medicina, se pueden producir implantes y prótesis adaptados a la anatomía del paciente, mejorando su eficacia y confort.</p>
+          </div>
+          <div class="col-md-5 mb-3">
+            <img src="img/piggy-bank (1).png" alt="Dibujo de Alcancía" title="Alcancía" class="img-fluid mx-auto" width="450" height="450">
+          </div>
+        </article>
+
+        <article class="row featurette border-bottom mt-3">
+          <div class="col-md-7 order-md-2">
+            <h3>Tiempo de Espera.</h3>
+            <p>A diferencia de la fabricación en masa de piezas idénticas, la impresión 3D permite la creación de dispositivos protésicos y ortopédicos personalizados para cada paciente. Esta tecnología ofrece la capacidad de adaptar cada pieza a la anatomía específica del individuo, mejorando significativamente su ajuste y funcionalidad. Al permitir este nivel de personalización, la impresión 3D no solo incrementa la comodidad del usuario, sino que también mejora la eficacia del dispositivo. Esto es especialmente crucial en el campo médico, donde un ajuste preciso puede marcar la diferencia en la calidad de vida del paciente.</p>
+          </div>
+          <div class="col-md-5 order-md-1 mb-3">
+            <img src="img/clock (1).png" alt="Dibujo de Relojes" title="Relojes" class="img-fluid mx-auto" width="450" height="450">
+          </div>
+        </article>
+      </section>
+
+      <!-- FAQ -->
+    <section class="seccion_faq container accordion my-md-5" id="accordionExample">
+      <h2>Preguntas frecuentes</h2>
+<!-- 1 -->
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿Trabajan exclusivamente para niños?
+          </button>
+        </h3>
         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <p>No, también para adultos. Al niño le puede faltar la mano, los dedos por un problema congénito y a los adultos por siniestros de tránsito. Más o menos la mitad son adultos y la otra mitad niños.</p>
           </div>
         </div>
       </div>
+<!-- 2 -->
       <div class="accordion-item">
-        <h2 class="accordion-header">
+        <h3 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Accordion Item #2
+            ¿Hacen prótesis desde el codo incluyendo la mano o sólo manos?
           </button>
-        </h2>
+        </h3>
         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
+            <p>Por ahora tenemos dos diseños. A las personas que le faltan los dedos de la mano le hacemos el diseño de la mano, tiene movimiento en la muñeca. Y a las personas que tienen un codo funcional, cuentan con parte del antebrazo, se le hace el diseño desde el brazo. Estamos trabajando para hacer otros diseños: un dedo o todo el brazo, para poder ofrecérselo a más personas, porque hemos recibido muchísimos llamados de pedidos de ayuda y eso nos hizo dar cuenta que tenemos que abarcar más casos”.</p>
+            </div>
         </div>
       </div>
+      <!-- 3 -->
       <div class="accordion-item">
         <h3 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            ¿Debe ser muy movilizador ver a un niño con su prótesis, como Samuel que tuvo la del Hombre Araña?
+            ¿Cómo es el trabajo paso a paso?
           </button>
         </h3>
         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-          </div>
+            <p>Las piezas se imprimen utilizando una máquina, impresora 3D, derrite un material parecido a un plástico y va formando la figura. Una vez que están todas las piezas hechas, se ensamblan utilizando tornillos, algunos hilos, y después se coloca en el brazo o la mano, según lo que sea. Y se articula mediante el uso de la muñeca o del codo. ‘Manos de Héroes’ realiza movimientos mecánicos.</p>
+            </div>
         </div>
       </div>
-    </section> -->
+      <!-- 4 -->
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Ustedes están radicados en Montevideo, ¿cuántas veces tiene que viajar la persona hasta retornar a su casa finalmente con la prótesis puesta?
+          </button>
+        </h3>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Una vez. Solamente viene cuando le colocamos la prótesis. Se trabaja por fotos y por video llamadas a causa de la pandemia. Tienen que venir una vez a Montevideo y es el momento cuando se le coloca la prótesis.</p>
+            </div>
+        </div>
+      </div>
+      <!-- 5 -->
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            ¿Es prolongado el proceso de aprendizaje para utilizar la prótesis?
+          </button>
+        </h3>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Todo es muy intuitivo, se lo ponen, hay unos minutos de ajustes para explicarles cómo funcionan las piezas, cuáles son los movimientos que pueden hacer, pero los niños enseguida que tienen la prótesis hacen los movimientos; no necesitan proceso de aprendizaje, se van contentos con su mano.</p>
+            </div>
+        </div>
+      </div>
+      <!-- 6 -->
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Debe ser muy movilizador ver a un niño con su prótesis, como Samuel que tuvo la del Hombre Araña.
+          </button>
+        </h3>
+        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Hay historias muy fuertes. Para que la gente sepa, un chico con malformación suele ser tímido, se esconde, recibe burlas en la escuela, y a veces no quiere seguir estudiando porque los comentarios lo hieren. Para Samuel ponerle una mano del Hombre Araña significó mucho más que tener cinco dedos, fue pararse de otra manera frente a los compañeros de clase.</p>
+            </div>
+        </div>
+      </div>
+    </section>
     </main>
 
     <!-- FOOTER -->

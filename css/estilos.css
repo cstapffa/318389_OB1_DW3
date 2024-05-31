@@ -41,7 +41,7 @@ footer div a img {
 .seccion_carousel .carousel-caption h1, .seccion_carousel .carousel-caption .h1 {
   /* font-family: ; */
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2.8em;
   color: rgb(12, 12, 12);
 }
 .seccion_carousel .carousel-caption p {
@@ -147,6 +147,7 @@ footer div a img {
   border-radius: 20px;
 }
 .seccion_nosotros .formulario h3, .seccion_nosotros .formulario .h3 {
+  font-weight: bold;
   font-size: 1.2em;
 }
 .seccion_nosotros .formulario p {
@@ -172,6 +173,50 @@ footer div a img {
 }
 .seccion_nosotros .formulario form button {
   margin: 10px 5px 5px;
+}
+
+.seccion_razones {
+  background-color: white;
+}
+.seccion_razones h2, .seccion_razones .h2 {
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #dddddd;
+  padding: 10px;
+}
+.seccion_razones article {
+  padding: 10px;
+}
+.seccion_razones article .col-md-7 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.seccion_razones article .col-md-7 h3, .seccion_razones article .col-md-7 .h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 50px;
+}
+.seccion_razones article .col-md-7 p {
+  font-size: 1em;
+}
+.seccion_razones article .order-md-2 {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.seccion_faq h2, .seccion_faq .h2 {
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #dddddd;
+  padding: 10px;
+}
+.seccion_faq h3, .seccion_faq .h3 {
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.seccion_faq .accordion-item {
+  background-color: #f5f5f5;
 }
 
 /* Importar Bootstrap CSS en este archivo */
@@ -12029,17 +12074,5 @@ body {
 .seccion_nosotros {
   margin-top: 100px;
 }
-
-/* 
-.seccion_faq {
-    h2 {
-        margin-bottom: 30px;
-        text-align: center;
-        text-transform: uppercase;
-    }
-        .accordion-item {
-            background-color: #f5f5f5;
-        }
-} */
 
 /*# sourceMappingURL=estilos.css.map */
